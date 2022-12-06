@@ -1,0 +1,31 @@
+2022-12-06 15:26:10.915  INFO 8644 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 8644 (started by balab in D:\workspaces\product-function)
+2022-12-06 15:26:10.917 DEBUG 8644 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.7.7-SNAPSHOT, Spring v5.3.24
+2022-12-06 15:26:10.918  INFO 8644 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 15:26:12.165  INFO 8644 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.826 seconds (JVM running for 4.002)
+2022-12-06 15:26:37.529  INFO 5416 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 5416 (started by balab in D:\workspaces\product-function)
+2022-12-06 15:26:37.531 DEBUG 5416 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.7.7-SNAPSHOT, Spring v5.3.24
+2022-12-06 15:26:37.532  INFO 5416 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 15:26:38.808  INFO 5416 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.777 seconds (JVM running for 3.847)
+2022-12-06 15:35:27.390  INFO 14092 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 14092 (started by balab in D:\workspaces\product-function)
+2022-12-06 15:35:27.400 DEBUG 14092 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.7.7-SNAPSHOT, Spring v5.3.24
+2022-12-06 15:35:27.401  INFO 14092 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 15:35:28.622  INFO 14092 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.776 seconds (JVM running for 3.795)
+2022-12-06 16:24:29.174  INFO 19700 --- [main] c.cts.azure.ProductFunctionApplication   : Starting ProductFunctionApplication using Java 16 on Jarvis with PID 19700 (D:\workspaces\product-function\bin\main started by balab in D:\workspaces\product-function)
+2022-12-06 16:24:29.191 DEBUG 19700 --- [main] c.cts.azure.ProductFunctionApplication   : Running with Spring Boot v2.7.7-SNAPSHOT, Spring v5.3.24
+2022-12-06 16:24:29.192  INFO 19700 --- [main] c.cts.azure.ProductFunctionApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 16:24:30.698  INFO 19700 --- [main] o.s.c.f.web.flux.FunctionHandlerMapping  : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@42ea287
+2022-12-06 16:24:31.183  INFO 19700 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-12-06 16:24:31.196  INFO 19700 --- [main] c.cts.azure.ProductFunctionApplication   : Started ProductFunctionApplication in 2.58 seconds (JVM running for 3.612)
+2022-12-06 16:24:52.335  INFO 19700 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-12-06 17:08:26.752  INFO 20476 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 20476 (started by balab in D:\workspaces\product-function)
+2022-12-06 17:08:26.753 DEBUG 20476 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-12-06 17:08:26.754  INFO 20476 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 17:08:28.130  INFO 20476 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.739 seconds (JVM running for 3.178)
+2022-12-06 17:10:20.105  INFO 7748 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 7748 (started by balab in D:\workspaces\product-function)
+2022-12-06 17:10:20.106 DEBUG 7748 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-12-06 17:10:20.106  INFO 7748 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 17:10:21.380  INFO 7748 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.662 seconds (JVM running for 2.836)
+2022-12-06 17:13:00.310  INFO 19208 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Starting ProductFunctionApplicationTests using Java 16 on Jarvis with PID 19208 (started by balab in D:\workspaces\product-function)
+2022-12-06 17:13:00.311 DEBUG 19208 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-12-06 17:13:00.312  INFO 19208 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 17:13:01.596  INFO 19208 --- [Test worker] c.c.a.ProductFunctionApplicationTests    : Started ProductFunctionApplicationTests in 1.66 seconds (JVM running for 2.842)
