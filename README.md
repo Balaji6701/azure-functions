@@ -33,3 +33,4 @@ gradle azureFunctionsDeploy
 * **Spring boot auto wiring won't work on the azure function class but will work inside other services.**[Refer here](https://stackoverflow.com/questions/64967353/can-spring-cloud-functions-get-access-to-any-spring-managed-component)
 * [Reference for host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) - Used to set azure configuration
 * [Reference for local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local#local-settings-file) - Used to set azure configurations locally
+* [Spring boot azure function example](https://learn.microsoft.com/en-us/samples/azure-samples/hello-spring-function-azure/hello-spring-function-azure/)
