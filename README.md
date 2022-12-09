@@ -10,6 +10,18 @@
 * Maven / Gradle
 * Java
 * Please check func is added to path variable before running the build commands
+* Azure cosmos emulator to run cosmos locally.
+* Add certificate to cacerts keystore using keytool command.
+```ruby
+keytool -cacerts -importcert -alias cosmos_emulator --file "File_Name"
+```
+### UserService
+* userService branch contains rest service using cosmos as database.
+* It runs on localhost and has get all users, get user by id and save user endpoints
+
+### CosmosDBEventTrigger
+* When any new insert happens in CosmosDB using User-Service, The CosmosDBEventHandler will run.
+* It can be used to send notifications to admin or user
 
 ### Maven commands to start azure function
 
