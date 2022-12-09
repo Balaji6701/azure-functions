@@ -1,6 +1,5 @@
 package com.example.handler;
 
-import java.util.Arrays;
 import java.util.logging.Level;
 
 import com.microsoft.azure.functions.ExecutionContext;
@@ -12,7 +11,10 @@ public class CosmosDBEventHandler {
 	public void cosmosEventProcessor(
 			@CosmosDBTrigger(name = "items", databaseName = "6701", collectionName = "users", createLeaseCollectionIfNotExists = true, connectionStringSetting = "AzureCosmosDBConnection") String[] items,
 			ExecutionContext executionContext) {
-		System.out.println(Arrays.asList(items));
+		executionContext.getLogger().log(Level.INFO, "The following items inserted into database");
+		for (String item : items) {
+			executionContext.getLogger().log(Level.INFO, item);
+		}
 		executionContext.getLogger().log(Level.INFO, "items length is " + items.length);
 	}
 }
