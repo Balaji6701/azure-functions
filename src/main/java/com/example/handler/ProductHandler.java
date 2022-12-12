@@ -14,7 +14,7 @@ import com.microsoft.azure.functions.annotation.BindingName;
 import com.microsoft.azure.functions.annotation.FunctionName;
 import com.microsoft.azure.functions.annotation.HttpTrigger;
 
-public class ProductHandler extends FunctionInvoker<Object, Product> {
+public class ProductHandler extends FunctionInvoker<Object, Object> {
 
 	@FunctionName("productGet")
 	public HttpResponseMessage getProduct(@HttpTrigger(name = "productGet", methods = {
