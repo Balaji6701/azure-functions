@@ -5,14 +5,17 @@ import org.springframework.data.annotation.Id;
 import com.azure.spring.data.cosmos.core.mapping.Container;
 import com.azure.spring.data.cosmos.core.mapping.GeneratedValue;
 import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
+import com.balaji.cosmos.audit.Auditable;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
+@EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor
 @Container(containerName = "product", ru = "3000", autoCreateContainer = true)
-public class Product {
+public class Product extends Auditable<String> {
 
 	@PartitionKey
 	private String productId;
